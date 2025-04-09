@@ -21,19 +21,19 @@ li{
     list-style: none;
 }
 h1{
-    font-family:"DM Serif Dispayl",serif ;
+    font-family:"DM Serif Display",serif ;
     font-size: 85px;
     
 }
 
 h2{
-    font-family:"DM Serif Dispayl",serif ;
+    font-family:"DM Serif Display",serif ;
     font-size: 50px;
     margin-bottom: 15px;
     width: 100%;
 }
 h3{
-    font-family:"DM Serif Dispayl",serif ;
+    font-family:"DM Serif Display",serif ;
     font-size: 25px;
 }
 
@@ -44,7 +44,7 @@ h3{
 /*debut des propriété flexbox*/
 p{
     font-family: "Jost",sans-serif;
-    font-size: 12px;
+    font-size: 18px;
 }
 .flex{
     display: flex;
@@ -102,12 +102,16 @@ p{
 }
 
 
-.width25{
-    width: 25%;
+.width30{
+    width: 30%;
 }
 
 .width40{
     width: 40%;
+}
+
+.width45{
+    width: 45%;
 }
 
 .textCenter{
@@ -163,4 +167,31 @@ margin-bottom: 15px;
 
 .card>p{
     margin-top: 30px;
+}
+
+.nomProfil{
+    font-family:"DM Serif Display", serif ;
+}
+
+/*SECTION PROJETS*/
+
+.cardProjet{ }
+
+.cardProjet>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cardProjet>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F0EC;
+    width: 70px;
+    height:70px;
+    border-radius: 100px;
+}
+
+.containerCardProjet{
+    margin-top: 50px;
 }
