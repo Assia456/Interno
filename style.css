@@ -30,12 +30,18 @@ h2{
     font-family:"DM Serif Dispayl",serif ;
     font-size: 50px;
     margin-bottom: 15px;
+    width: 100%;
 }
 h3{
     font-family:"DM Serif Dispayl",serif ;
     font-size: 25px;
 }
 
+.bold{
+    font-weight: 700;
+}
+
+/*debut des propriété flexbox*/
 p{
     font-family: "Jost",sans-serif;
     font-size: 12px;
@@ -78,10 +84,9 @@ p{
     padding-top: 150px;
 }
 
-.bold{
-    font-weight: 700;
-}
 
+
+/*fin des propriété flexbox*/
 
 /*HEADER*/
 .logo{
@@ -134,3 +139,28 @@ p{
 margin-bottom: 15px;
 }
 
+/*SECTION AVIS CLIENTS*/
+.card{
+    background-color:white;
+    padding:40px;
+    border-radius: 15px;
+
+}
+
+.sectionAvis{
+    background-color: #F4F0EC;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card>div{
+    width: 65%;
+}
+
+.card>img{
+    width: 20%;
+}
+
+.card>p{
+    margin-top: 30px;
+}
